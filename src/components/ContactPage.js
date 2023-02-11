@@ -4,7 +4,7 @@ export default function Contact() {
     const [contactName, setContactName] = useState("");
     const [contactEmail, setContactEmail] = useState("");
 
-    const handleInputChange = (e) {
+    const handleInputChange = (e) => {
         const { name, value } = e.target;
 
         name === "contact-name" ? setContactName(value) : setContactEmail(value);
