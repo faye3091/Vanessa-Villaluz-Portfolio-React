@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/css/main.ae8303e8.css",
+    "main.js": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/js/main.36e871aa.js",
+    "static/media/Vanessa.jpeg": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/media/Vanessa.ae551f303d03baed6fa6.jpeg",
+    "static/media/VanessaVillaluzResume.pdf": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/media/VanessaVillaluzResume.1d1b14f4e83fb04f67bf.pdf",
+    "index.html": "/faye3091/Vanessa-Villaluz-Portfolio-React/index.html",
+    "main.ae8303e8.css.map": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/css/main.ae8303e8.css.map",
+    "main.36e871aa.js.map": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/js/main.36e871aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae8303e8.css",
+    "static/js/main.36e871aa.js"
+  ]
+}
