@@ -1,11 +1,8 @@
 import React from "react";
+import PortfolioComponent from "./components/PortfolioComponent";
 
 function App() {
-  return (
-    <div>
-      <h1 className="text-center">Vanessa's Portfolio In the making....</h1>
-    </div>
-  );
+  return <PortfolioComponent />
 }
 
 export default App;

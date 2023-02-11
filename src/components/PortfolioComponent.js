@@ -11,7 +11,7 @@ export default function PortfolioComponent() {
 
     const renderPage = () => {
         if (currentPage === "About") {
-            return <About />;
+            return <AboutMe />;
           }
           if (currentPage === "Portfolio") {
             return <Portfolio />;
