@@ -48,3 +48,23 @@ h4.resume {
 a {
     color: black;
 }
+
+.title-aboutme {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.aboutme {
+    font-size: 20px;
+}
+
+form.flex-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-group {
+    margin: 10px;
+}
