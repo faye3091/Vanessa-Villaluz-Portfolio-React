@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/css/main.ae8303e8.css",
-    "main.js": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/js/main.36e871aa.js",
+    "main.css": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/css/main.ec780885.css",
+    "main.js": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/js/main.fceed5be.js",
+    "static/media/Quiz-Challenge.png": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/media/Quiz-Challenge.99864d7f98ed781a53dd.png",
     "static/media/Vanessa.jpeg": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/media/Vanessa.ae551f303d03baed6fa6.jpeg",
     "static/media/VanessaVillaluzResume.pdf": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/media/VanessaVillaluzResume.1d1b14f4e83fb04f67bf.pdf",
+    "static/media/Flip-a-coin-game.png": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/media/Flip-a-coin-game.3e627588ca9220972e49.png",
+    "static/media/MovieRandomizzer.png": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/media/MovieRandomizzer.c0bb9d13e924af75cf44.png",
+    "static/media/Ex-Press-Fitness.jpg": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/media/Ex-Press-Fitness.5d8848d35912320bfa2b.jpg",
+    "static/media/movieLover.jpg": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/media/movieLover.0f6b6b4dc0dcc744a09d.jpg",
+    "static/media/weather-dashboard.png": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/media/weather-dashboard.8099934f4bfdd9e8b64e.png",
+    "static/media/Password-Generator.png": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/media/Password-Generator.297f4b6e0ae6b89d57c3.png",
+    "static/media/Work-Day-Scheduler.png": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/media/Work-Day-Scheduler.28a89e031a8574c66e23.png",
     "index.html": "/faye3091/Vanessa-Villaluz-Portfolio-React/index.html",
-    "main.ae8303e8.css.map": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/css/main.ae8303e8.css.map",
-    "main.36e871aa.js.map": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/js/main.36e871aa.js.map"
+    "main.ec780885.css.map": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/css/main.ec780885.css.map",
+    "main.fceed5be.js.map": "/faye3091/Vanessa-Villaluz-Portfolio-React/static/js/main.fceed5be.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae8303e8.css",
-    "static/js/main.36e871aa.js"
+    "static/css/main.ec780885.css",
+    "static/js/main.fceed5be.js"
   ]
 }

@@ -7,7 +7,7 @@ import passwordGenerator from "../assets/images/Password-Generator.png";
 import dayScheduler from "../assets/images/Work-Day-Scheduler.png";
 import FlipACoin from "../assets/images/Flip-a-coin-game.png";
 
-export default [
+const projects = [
     {
     "id": 1,
     "name": "Movie_lover",
@@ -72,4 +72,6 @@ export default [
     "deploy": "https://faye3091.github.io/Implement-Coin-Flipper/",
     "topics": "HTML, Javascript, CSS"
     }
-]
+];
+
+export default projects;
