@@ -1,8 +1,10 @@
 import React, {useState} from "react";
+import { validateEmail  } from "../utils/helpers";
 
 export default function Contact() {
     const [contactName, setContactName] = useState("");
     const [contactEmail, setContactEmail] = useState("");
+    const [errorMessage, setErrorMessage] = useState("");
 
     const handleInputChange = (e) => {
         const { name, value } = e.target;
@@ -20,6 +22,10 @@ export default function Contact() {
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
+        if(!validateEmail(contactEmail)) {
+          setErrorMessage('Email is invalid');
+          return;
+        }
 
         setContactName("");
         setContactEmail("");
@@ -73,6 +79,11 @@ export default function Contact() {
               </button>
             </div>
           </form>
+          {errorMessage && (
+            <div>
+              <p className="error-message">{errorMessage}</p>
+            </div>
+          )}
             </div>
         )
 }
