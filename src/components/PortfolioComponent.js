@@ -10,8 +10,8 @@ export default function PortfolioComponent() {
     const [currentPage, setCurrentPage] = useState("AboutMe");
 
     const renderPage = () => {
-        if (currentPage === "About") {
-            return <AboutMe />;
+        if (currentPage === "Resume") {
+            return <Resume />;
           }
           if (currentPage === "Portfolio") {
             return <Portfolio />;
@@ -19,7 +19,7 @@ export default function PortfolioComponent() {
           if (currentPage === "Contact") {
             return <Contact />;
           }
-          return <Resume />;
+          return <AboutMe />;
     };
 
     const handlePageChange = (page) => setCurrentPage(page);

@@ -18,14 +18,6 @@ const projects = [
     },
     {
     "id": 2,
-    "name": "Ex-Press Fitness",
-    "image": expressFitness,
-    "github": "https://github.com/faye3091/Ex-Press-Fitness",
-    "deploy": "https://floating-beyond-34615.herokuapp.com/",
-    "topics": "express-js, mysql, sequelize, node-js, handlebars-js"
-    },
-    {
-    "id": 3,
     "name": "Movie Randomizer",
     "image": movieRandomizer,
     "github": "https://github.com/faye3091/Movie-Randomizer",
@@ -33,7 +25,7 @@ const projects = [
     "topics": "HTML, CSS, Javascript"
     },
     {
-    "id": 4,
+    "id": 3,
     "name": "Weather Dashboard",
     "image": weatherDashboard,
     "github": "https://github.com/faye3091/06-Server-Side-APIs-Challenge-Weather-Dashboard",
@@ -41,13 +33,21 @@ const projects = [
     "topics": "Javascript, jQuery, HTML"
     },
     {
-    "id": 5,
+    "id": 4,
     "name": "Quiz Challenge",
     "image": quizChallenge,
     "github": "https://github.com/faye3091/Web-APIs-Challenge-4-Code-Quiz",
     "deploy": "https://faye3091.github.io/Web-APIs-Challenge-4-Code-Quiz/",
     "topics": "HTML, CSS, JavaScript"
-      },
+    },
+    {
+    "id": 5,
+    "name": "Ex-Press Fitness",
+    "image": expressFitness,
+    "github": "https://github.com/faye3091/Ex-Press-Fitness",
+    "deploy": "https://floating-beyond-34615.herokuapp.com/",
+    "topics": "express-js, mysql, sequelize, node-js, handlebars-js"
+    },
     {
     "id": 6,
     "name": "Work Day Schedular",

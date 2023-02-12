@@ -48,6 +48,7 @@ a.nav-link {
 
 .image {
     width: 200px;
+    border-radius: 50px;
 }
 
 p {
@@ -56,10 +57,7 @@ p {
 
 h3 {
     margin-top: 20px;
-}
-
-h4.resume {
-    margin: 10px 0 25px 25px;
+    font-weight: bold;
 }
 
 a {
@@ -99,7 +97,17 @@ form.flex-row {
     
 }
 
-.portfolio-title {
+.portfolio-title, .resume-title, h4.resume {
     justify-content: center;
-    font-weight: bolder;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-aboutme {
+    display: flex;
+    justify-content: center;
 }

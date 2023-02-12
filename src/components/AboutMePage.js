@@ -4,7 +4,7 @@ import photo from "../assets/images/Vanessa.jpeg";
 export default function AboutMe() {
     return (
         <div>
-            <h2 className="title-aboutme">About Me</h2>
+            <h2 className="title-aboutme mb-3">About Me</h2>
             <div className="pix">
                 <img className="image" src={photo} alt="Vanessa" />
             </div>

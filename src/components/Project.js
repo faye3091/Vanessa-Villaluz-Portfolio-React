@@ -36,7 +36,7 @@ export default function Project(props) {
 
     return (
         <div className="row mb-5 justify-content-center">
-      <h3 className="row portfolio-title">Portfolio</h3>
+      <h3 className="row portfolio-title mt-3">Portfolio</h3>
       <div className="col-10 d-flex">
         <div className="row row-cols-2">
           {props.projects.map((project, index) => (

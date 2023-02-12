@@ -5,20 +5,20 @@ export default function Contact() {
     const [contactName, setContactName] = useState("");
     const [contactEmail, setContactEmail] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
+    const [contactMsg, setContactMsg] = useState("");
 
     const handleInputChange = (e) => {
         const { name, value } = e.target;
 
-        name === "contact-name" ? setContactName(value) : setContactEmail(value);
+        if (name === "contact-name") {
+          setContactName(value);
+        } else if (name === "contact-email") {
+          setContactEmail(value);
+        } else {
+          setContactMsg(value);
+        }
     };
 
-    const checkUserInput = (e) => {
-        const { name, value } = e.target;
-
-        if (!value) {
-            name === "contact-name" ? alert(`Name is required. Please enter a name`) : alert(`email is required. Please enter an email`);
-        }
-    }
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
@@ -29,10 +29,12 @@ export default function Contact() {
 
         setContactName("");
         setContactEmail("");
+        setContactMsg("");
+        setErrorMessage("");
     };
 
     return (
-        <div className="row justify-content-center text-center">
+        <div className="row justify-content-center text-center mt-4">
             <h3>Contact</h3>
             <form className="flex-row" onSubmit={handleFormSubmit}>
             <div className="form-group col-6">
@@ -45,7 +47,6 @@ export default function Contact() {
                 value={contactName}
                 required
                 onChange={handleInputChange}
-                onMouseLeave={checkUserInput}
               />
             </div>
             <div className="form-group col-6">
@@ -58,7 +59,6 @@ export default function Contact() {
                 value={contactEmail}
                 required
                 onChange={handleInputChange}
-                onMouseLeave={checkUserInput}
               />
             </div>
             <div className="form-group col-6">
@@ -71,7 +71,7 @@ export default function Contact() {
             </div>
             <div className="col-12">
               <button
-                className="btn btn-primary"
+                className="btn btn-primary mb-5"
                 type="submit"
                 onSubmit={handleFormSubmit}
               >
